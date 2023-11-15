@@ -18,7 +18,7 @@
 
 body{
     font-family: 'Noto Sans JP', sans-serif;
-    background-image: url(arts/予報外れblur.png);
+    background-image: url(material/stripe.png);
     
     background-attachment: fixed;
     background-size: cover;
@@ -62,4 +62,9 @@ p{
 a{
     color: black;
     text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
 }
