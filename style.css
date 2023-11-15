@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
+
+.profimg img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius:50%;
+    box-shadow: 0px 0px 10px 10px #c6c6c6;
+    object-position: 100% 0%;
+}
+
+.linkcard img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    margin: 24px;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: url(arts/予報外れblur.png);
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.prof{
+    text-align: center;
+}
+
+.square{
+    backdrop-filter: blur(12px);
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 64px;
+    max-width: 750px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.linkcard{
+    margin: 32px auto;
+    max-width:512px;
+    min-height: 96px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #e6e6e6;
+    padding: 10px;
+    display: flex;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 90%;
+}
+
+p{
+    color: #666666;
+    line-height: 60%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
