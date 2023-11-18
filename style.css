@@ -1,15 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
 
-header{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 15%;
-    height: 100%;
-    background-color: #f0f0f0;
-    padding: 48px;
+
+.rightflow{
+    display: flex;
 }
 
+
+.sidebar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 15vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 48px;
+    margin-right: 10px;
+}
+
+.sidebarlnk{
+    font-size: 25px;
+    line-height: 200%;
+    transition: font-size 0.5s;
+}
+.sidebarlnk:hover{
+    font-size: 28px;
+}
 
 .profimg img{
     width: 200px;
@@ -30,9 +45,9 @@ header{
 body{
     font-family: 'Noto Sans JP', sans-serif;
     background-image: url(material/stripe.png);
-    
     background-attachment: fixed;
     background-size: cover;
+    margin: 0px;
 }
 
 .prof{
@@ -40,7 +55,6 @@ body{
 }
 
 .square{
-    backdrop-filter: blur(12px);
     width: 85%;
     margin: 0 auto;
     margin-top: 64px;
